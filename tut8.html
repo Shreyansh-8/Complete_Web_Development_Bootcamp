@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is HTML form</h2>
+    <form action="backend.php">
+        <label for="name"> Name: </label>
+        <div>
+           <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <label for="role">Role: </label>
+        <div>
+            <input type="text" name="MyRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email :</label>
+        <div>
+             <input type="email" name="MyEmail" id="email">
+        </div>
+        <br>\
+        <label for="dateofbirth"> DOB : </label>
+        <div>
+           <input type="date" name="" id="dateofbirth">
+        </div>
+        <br>
+        <label for="age">Age : </label>
+        <div>
+            <input type="number" name="MyNumber" id="age">  
+        </div>
+        <br>
+        <label for="eligibility"> Are you Eligible ? </label>
+        <div>
+           <input type="checkbox" name="MyEligibility" id="eligibility"> 
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender"> Other <input type="radio" name="MyGender">
+        </div>
+        <label for="about">Write about Yourself :</label>
+        <div>
+            <br><textarea name="MyText" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="country"> Country :</label>
+        <div>
+        <select name="MyCountry" id="country">
+             <option value="India" selected> India</option>
+             <option value="Singapore">Singapore</option>
+             <option value="Sri Lanka">Sri Lanka</option>
+        </select>
+        <br>
+        </div>
+        <div>
+            <input type="reset" value=" Reset Now">
+            <input type="submit" value="Submit Now">
+        </div>
+    </form>
+</body>
+</html>

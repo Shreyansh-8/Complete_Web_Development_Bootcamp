@@ -1,0 +1,37 @@
+.navbar{
+    background-color: #8969a6;
+    border-radius: 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.navbar li a:hover{
+    color: chartreuse;    
+}
+.navbar li a:active{
+    color: darkgoldenrod;
+}
+.search{
+    float: right;
+    color: whitesmoke;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 3px solid black;
+    padding: 3px 3px;
+    border-radius: 10px;
+    width: 255px;
+}

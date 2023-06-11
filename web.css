@@ -1,0 +1,28 @@
+.Screen{
+    background-color: rgb(98 102 129);
+    border: 3px solid rgb(3, 43, 77);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 45px;
+    border-radius: 23px;
+}
+.Title{
+    background-color: rgb(98 102 129);
+    border: 3px solid rgb(3, 43, 77);
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    padding-left: 0px;
+    padding-right: 0px;
+
+    margin: 10px;
+    border-radius: 23px;
+}
+body{
+    background-color: #9d00ff24;
+}
+.scr{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}

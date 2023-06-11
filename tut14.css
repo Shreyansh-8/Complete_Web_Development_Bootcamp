@@ -1,0 +1,23 @@
+/* element selector */
+p{
+    border: 2px solid rebeccapurple;
+}
+
+
+
+/* id selector */
+#redElement{
+    color: red;
+}
+/* class selector */
+.BlueElement{
+    color: rosybrown;
+}
+.backgr{
+    background-color:honeydew;
+}
+/* group selector */
+#foot,.Sp{
+    color: hotpink;
+    background-color: mediumblue;
+}

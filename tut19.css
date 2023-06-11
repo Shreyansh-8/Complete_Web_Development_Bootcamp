@@ -1,0 +1,23 @@
+#firstPara{
+    background-color: saddlebrown;
+    height: 50px;
+    width: 400px;
+    border: 6px solid green;
+    border-radius: 11px;
+}
+#secondPara{
+    background-color: saddlebrown;
+    height: 50px;
+    width: 400px;
+    border-left: 6px solid green;
+    border-bottom: 6px solid green;
+    border-radius: 11px;
+}
+#thirdPara{
+    height: 200px;
+    width: 300px;
+    background-image: url('/stacked-pebbles-on-beach-istock-130917_cropped_339_238.jpg');
+    border: 6px solid green;
+    border-radius: 11px;
+    background-repeat: no-repeat;
+    background-position: center center ;

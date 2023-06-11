@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating or Manipulating the DOM</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Conact Us</li>
+            <li>More</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+    </div>
+
+    <script>
+        let main = document.getElementById('main');
+        console.log(main); 
+        let nav = document.getElementById('nav');
+        console.log(nav); 
+        // nav.innerHTML = "<li>Dynamic element</li>";
+        // console.log(nav.innerHTML);
+
+        // let containers = document.getElementsByClassName('container');
+        // console.log(containers);
+        // console.log(containers[1]);
+        // let sel = document.querySelector(".container");
+        // console.log("Selector returns",sel);
+        let select = document.querySelectorAll("#nav>li");
+        console.log("Selector returns",select);
+    </script>
+</body>
+</html>

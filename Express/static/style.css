@@ -1,0 +1,61 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    opacity: 0.8;
+    content: "";
+    height:850px;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url('/static//humphrey-muleba-dDp-6pXrYik-unsplash.jpg') no-repeat center center;
+    z-index: -1;
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 12px 12px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 3px 17px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: 12px auto;
+    max-width: 70%;
+  
+}
+input,textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    outline: none;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: wheat;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}

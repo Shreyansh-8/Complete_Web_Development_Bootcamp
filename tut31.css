@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+}
+div>p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+}
+div + p {
+    color: indianred;
+    background-color: indigo;
+}

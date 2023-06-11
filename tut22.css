@@ -1,0 +1,28 @@
+.container{
+    border: 3px solid purple;
+    background-color: rosybrown;
+    padding: 35px;
+    margin: 15px auto;
+    width: 650px;
+}
+.btn{
+    background-color: royalblue;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blanchedalmond;
+}
+a:visited{
+    color: rgb(196, 196, 16);
+}
+a:active{
+    color: springgreen;
+}

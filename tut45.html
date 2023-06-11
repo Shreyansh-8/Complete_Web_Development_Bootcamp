@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Media Queries in CSS Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'navbar navbar navbar'
+            'section section aside'
+            'footer footer footer';
+        }
+         @media only screen and (max-width:300px){
+            body{
+                
+                background-color: cyan;
+            }
+            .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'navbar navbar navbar'
+            'section section section'
+            'aside aside aside'
+            'footer footer footer';
+            }
+            span{
+                display: block;
+            }
+            aside{
+                display: none;
+            }
+
+        }
+
+        @media only screen and (min-width: 300px) and (max-width:500px) {
+            body{
+                
+                background-color: blueviolet;
+            }
+            .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'navbar navbar navbar'
+            'section section section'
+            'aside aside aside'
+            'footer footer footer';
+            }
+            aside{
+                display: none;
+            }
+            span{
+                display: block;
+            }
+        }
+
+        @media (min-width: 500px) and (max-width:800px) {
+            body{
+                background-color: yellow;
+            }
+            .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'navbar navbar navbar'
+            'section section section'
+            'aside aside aside'
+            'footer footer footer';
+            }
+            span{
+                display: block;
+            }
+        }
+
+        @media (min-width: 800px)  {
+            body{
+                
+                background-color: green;
+            }
+        }
+        .bdr{
+            border: 2px solid black;
+            padding: 10px 23px;
+            background-color:wheat ;
+        }
+        nav{
+            grid-area: navbar;
+            justify-content: center;
+            text-align: center;
+            padding: 12px;
+            margin: 10px;
+
+        }
+        section{
+            grid-area: section;
+            padding: 12px;
+            margin: 10px;
+
+        }
+        aside{
+            grid-area: aside;
+            padding: 12px;
+            margin: 10px;            
+
+        }
+        footer{
+            grid-area: footer;
+            padding: 12px;
+            margin: 10px;   
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="bdr">
+            <span>Home</span>
+            <span>About</span>
+            <span>Services</span>
+            <span>Contact</span>
+        </nav>
+        <section class="bdr">
+            <h2>Learn CSS in Hindi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo maxime aperiam perferendis laboriosam et, deserunt labore voluptatibus nam illum possimus vel non ex dicta fugiat animi quisquam, est porro nemo beatae exercitationem similique perspiciatis numquam vero! Ea nihil nemo, enim, doloremque ad autem animi sint at delectus molestiae blanditiis, ex perferendis cum nesciunt sapiente veritatis quis veniam fugiat iste? Nulla atque qui quam voluptatem veritatis, necessitatibus assumenda expedita alias fuga explicabo cupiditate eum deleniti aperiam eius hic consectetur voluptatum accusamus repellat beatae, dolorem dolorum ducimus officia autem illo. Aspernatur asperiores blanditiis nostrum quod rem. Fugiat, harum rem dolorum nulla illum suscipit laborum accusamus expedita, ullam voluptatum temporibus corrupti eligendi quas, facere ipsum? Mollitia eius culpa quis ex natus reiciendis laboriosam ipsa quae aperiam porro illum incidunt iste non ullam in hic recusandae, aspernatur velit possimus.</p>
+
+        </section>
+        <aside class="bdr">
+            <h1>More about us</h1>
+        </aside>
+        <footer class="bdr">Copyright Shreyansh 2021</footer>
+    </div>
+</body>
+</html>
